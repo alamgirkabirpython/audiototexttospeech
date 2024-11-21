@@ -1,5 +1,8 @@
-streamlit
-transformers
-torch
-moviepy
-yt-dlp
+streamlit==1.40.1
+transformers==4.46.3
+torch==2.5.1
+numpy==2.1.3
+pandas==2.2.3
+yt-dlp==2024.11.18
+pydub
+ffmpeg
