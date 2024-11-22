@@ -23,7 +23,7 @@ device = 'cuda' if torch.cuda.is_available() else 'cpu'
 def load_transcription_model():
     return pipeline(
         "automatic-speech-recognition",
-        "openai/whisper-large-v2",
+        "openai/whisper-small",
         chunk_length_s=30,
         stride_length_s=3,
         return_timestamps=True,
